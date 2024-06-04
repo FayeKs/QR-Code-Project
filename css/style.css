@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;}
+
+
+
+body {
+    font-family: 'outfit', sans-serif;
+   line-height: 1.6;
+   min-height: 100vh;
+   display: grid;
+   place-items: center;
+   background-color: hsl(212, 45%, 89%);}
+   
+
+
+.card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+
+.main {
+    font-size: 20px;
+}
+
+
+
+.paragraph {
+    font-size: 15px;
+    
+    
+}
+
+.qr-code img {
+    width: 270px;
+    border-radius: 10px;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
