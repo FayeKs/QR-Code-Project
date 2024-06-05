@@ -26,20 +26,20 @@ body {
 }
 
 
-.main {
+.card__title {
     font-size: 20px;
 }
 
 
 
-.paragraph {
+.card__desc {
     font-size: 15px;
     
     
 }
 
-.qr-code img {
-    width: 270px;
+.card__code img {
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -48,3 +48,5 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+
